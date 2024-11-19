@@ -58,6 +58,10 @@ A fully functional **Amazon clone** built with **React**, **Firebase**, and **Do
 4. **Responsive UI**:  
    The app is designed to be fully responsive, ensuring a great user experience on both mobile and desktop devices.
 
+![Screenshot 2024-11-18 at 9 25 15 PM](https://github.com/user-attachments/assets/02d1cc7b-a2ae-49e7-a3b4-821d33f42480)
+![Screenshot 2024-11-18 at 9 26 18 PM](https://github.com/user-attachments/assets/f06a0f98-3ead-44b6-84fe-e2d6d4718103)
+![Screenshot 2024-11-18 at 9 25 42 PM](https://github.com/user-attachments/assets/2d6aebe5-68cf-4152-8303-58c5c8263cb8)
+
 ## Dockerized Deployment
 
 The application is fully containerized using **Docker**. This ensures consistency in the development environment and simplifies deployment to cloud platforms.
