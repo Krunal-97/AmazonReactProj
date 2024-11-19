@@ -1,0 +1,22 @@
+$secondary_color: #f79b33;
+$text_color: #ffff;
+.payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .payment_container {
+    background-color: $text_color;
+    .checkout_container {
+      font-size: 34px;
+      text-align: center;
+      padding: 15px;
+    }
+    .payment_section {
+      padding: 20px;
+      border-bottom: 1px solid lightgray;
+      .payment_title {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}

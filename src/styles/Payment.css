@@ -1,0 +1,32 @@
+.payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.payment .payment_container {
+  background-color: #ffff;
+}
+
+.payment .payment_container .checkout_container {
+  font-size: 34px;
+  text-align: center;
+  padding: 15px;
+}
+
+.payment .payment_container .payment_section {
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment .payment_container .payment_section .payment_title {
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=Payment.css.map */

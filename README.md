@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Amazon Clone - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully functional **Amazon clone** built with **React**, **Firebase**, and **Docker**, featuring user authentication, product management, and a responsive UI. The app mimics core e-commerce features and is containerized for easy deployment.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication**:  
+  Users can sign up and log in securely using **Firebase Authentication** with email/password login.
+- **Product Management (CRUD)**:  
+  Admin users can create, read, update, and delete products. Product information is stored in **Firebase Firestore**.
 
-### `npm start`
+- **Responsive Design**:  
+  The app is fully responsive and provides a seamless shopping experience on both desktop and mobile devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **State Management**:  
+  Global state is managed using **React Context API** and **Redux**, ensuring a smooth flow of data between components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Routing**:  
+  **React Router** is used to handle client-side routing, allowing users to navigate between different pages (Home, Product Details, Cart, etc.).
 
-### `npm test`
+- **Add to Cart & Checkout**:  
+  Users can add products to their cart, view the cart, and proceed to checkout.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Containerized Deployment**:  
+  The application is packaged using **Docker**, making it easy to deploy on any cloud platform or run locally with consistent environments.
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - **React**: A popular JavaScript library for building user interfaces.
+  - **React Router**: For handling client-side routing and navigation between pages.
+  - **Redux & React Context API**: For global state management across the application.
+  - **Axios**: For making HTTP requests to interact with Firebase services.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Backend**:
+  - **Firebase Firestore**: A NoSQL database for storing product data.
+  - **Firebase Authentication**: Provides secure user authentication using email/password.
+- **Deployment**:
 
-### `npm run eject`
+  - **Docker**: Used to containerize the app for easier deployment and scalability across various environments.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Other Libraries**:
+  - **Firebase SDK**: For interacting with Firebase services (Firestore, Authentication).
+  - **Styled Components**: For styling the application components.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Application Flow
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Authentication**:  
+   Users can sign up or log in using their email and password. Firebase Authentication manages the user session.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Product Management**:  
+   Admin users can add, update, and remove products, which are stored in Firebase Firestore.
 
-## Learn More
+3. **User Interaction**:  
+   Users can browse products, add them to their cart, and proceed to checkout.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Responsive UI**:  
+   The app is designed to be fully responsive, ensuring a great user experience on both mobile and desktop devices.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Dockerized Deployment
 
-### Code Splitting
+The application is fully containerized using **Docker**. This ensures consistency in the development environment and simplifies deployment to cloud platforms.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Build and run the app inside a container for easy scaling and deployment.

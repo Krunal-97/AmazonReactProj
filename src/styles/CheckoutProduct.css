@@ -1,0 +1,41 @@
+.checkout_product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.checkout_product img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 150px;
+  width: 150px;
+}
+
+.checkout_product .checkout_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  width: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.checkout_product .checkout_info .checkout_rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.checkout_product .checkout_info button {
+  background-color: #f79b33;
+  border: 1px solid;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+}
+/*# sourceMappingURL=CheckoutProduct.css.map */

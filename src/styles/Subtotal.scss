@@ -1,0 +1,12 @@
+$subtotal_background: #f3f3f3;
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  background-color: $subtotal_background;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}

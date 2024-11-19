@@ -1,0 +1,32 @@
+$secondary_color: #f79b33;
+$text_color: #ffff;
+
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: $text_color;
+  height: max-content;
+  border-radius: 20px;
+  .checkout_left {
+    padding-right: 10px;
+    .checkout_ad img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  .checkout_right {
+    .subtotal_gift {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    button {
+      background-color: $secondary_color;
+      border: 1px solid;
+      margin-top: 10px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: none;
+    }
+  }
+}
